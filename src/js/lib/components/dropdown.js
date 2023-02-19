@@ -8,7 +8,6 @@ $.prototype.dropdown = function() {
             if ($('dropdown-toggle').length == 0) {
                 $(this[i]).toggleClass('arrowdown');
             }
-            console.log($('dropdown-toggle').length == 0);
             $(`[data-toggle-id="${id}"]`).fadeToggle(300);
 
         });
@@ -24,6 +23,5 @@ $.prototype.dropdown = function() {
 //     }
 // };
 
-// $('.dropdown-toggle').dropdown();
 $('.dropdown-toggle').dropdown();
 console.log($('.dropdown-toggle'));
